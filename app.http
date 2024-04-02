@@ -1,0 +1,8 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+    "title": "unite summit",
+    "details": "evento",
+    "maximumAttendees": 100
+}
