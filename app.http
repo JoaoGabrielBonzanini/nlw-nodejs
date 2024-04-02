@@ -2,7 +2,26 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-    "title": "unite summit",
-    "details": "evento",
-    "maximumAttendees": 100
+    "title": "Novo evento 2",
+    "details": null,
+    "maximumAttendees": 1
 }
+
+###
+
+POST http://localhost:3333/events/cc628932-f376-4ec8-af5d-faf4f0746e32/attendees
+Content-Type: application/json
+
+{
+    "name": "Joao",
+    "email": "joaog2@gmail.com"
+}
+
+
+###
+
+GET http://localhost:3333/events/8a413ec3-7552-4a5c-b477-1ee94b56835a
+
+
+###
+GET http://localhost:3333/attendees/4/badge
